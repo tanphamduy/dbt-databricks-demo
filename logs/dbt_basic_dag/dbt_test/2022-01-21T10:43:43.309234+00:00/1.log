@@ -1,0 +1,90 @@
+[2022-01-21 10:44:04,991] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dbt_basic_dag.dbt_test manual__2022-01-21T10:43:43.309234+00:00 [queued]>
+[2022-01-21 10:44:05,002] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: dbt_basic_dag.dbt_test manual__2022-01-21T10:43:43.309234+00:00 [queued]>
+[2022-01-21 10:44:05,002] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-21 10:44:05,002] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-01-21 10:44:05,002] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-21 10:44:05,014] {taskinstance.py:1259} INFO - Executing <Task(BashOperator): dbt_test> on 2022-01-21 10:43:43.309234+00:00
+[2022-01-21 10:44:05,019] {standard_task_runner.py:52} INFO - Started process 10654 to run task
+[2022-01-21 10:44:05,031] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dbt_basic_dag', 'dbt_test', 'manual__2022-01-21T10:43:43.309234+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/dbt_basic.py', '--cfg-path', '/tmp/tmph5965y60', '--error-file', '/tmp/tmpnldzn0i_']
+[2022-01-21 10:44:05,032] {standard_task_runner.py:77} INFO - Job 5: Subtask dbt_test
+[2022-01-21 10:44:05,095] {logging_mixin.py:109} INFO - Running <TaskInstance: dbt_basic_dag.dbt_test manual__2022-01-21T10:43:43.309234+00:00 [running]> on host c20cfa89904c
+[2022-01-21 10:44:05,168] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=astronomer
+AIRFLOW_CTX_DAG_ID=dbt_basic_dag
+AIRFLOW_CTX_TASK_ID=dbt_test
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-21T10:43:43.309234+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-01-21T10:43:43.309234+00:00
+[2022-01-21 10:44:05,169] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2022-01-21 10:44:05,170] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'dbt test --profiles-dir /home/***/.dbt --project-dir /opt/***/dbt']
+[2022-01-21 10:44:05,182] {subprocess.py:85} INFO - Output:
+[2022-01-21 10:44:08,715] {subprocess.py:89} INFO - Running with dbt=0.21.1
+[2022-01-21 10:44:10,716] {subprocess.py:89} INFO - [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2022-01-21 10:44:10,717] {subprocess.py:89} INFO - There are 1 unused configuration paths:
+[2022-01-21 10:44:10,717] {subprocess.py:89} INFO - - models.jaffle_shop.staging
+[2022-01-21 10:44:10,717] {subprocess.py:89} INFO - 
+[2022-01-21 10:44:10,729] {subprocess.py:89} INFO - Found 2 models, 4 tests, 0 snapshots, 0 analyses, 172 macros, 0 operations, 0 seed files, 0 sources, 0 exposures
+[2022-01-21 10:44:10,731] {subprocess.py:89} INFO - 
+[2022-01-21 10:44:11,408] {subprocess.py:89} INFO - 10:44:11 | Concurrency: 1 threads (target='dev')
+[2022-01-21 10:44:11,408] {subprocess.py:89} INFO - 10:44:11 |
+[2022-01-21 10:44:11,410] {subprocess.py:89} INFO - 10:44:11 | 1 of 4 START test not_null_my_first_dbt_model_id..................... [RUN]
+[2022-01-21 10:44:11,945] {subprocess.py:89} INFO - 10:44:11 | 1 of 4 FAIL 1 not_null_my_first_dbt_model_id......................... [[31mFAIL 1[0m in 0.53s]
+[2022-01-21 10:44:11,946] {subprocess.py:89} INFO - 10:44:11 | 2 of 4 START test not_null_my_second_dbt_model_id.................... [RUN]
+[2022-01-21 10:44:12,596] {subprocess.py:89} INFO - 10:44:12 | 2 of 4 PASS not_null_my_second_dbt_model_id.......................... [[32mPASS[0m in 0.65s]
+[2022-01-21 10:44:12,597] {subprocess.py:89} INFO - 10:44:12 | 3 of 4 START test unique_my_first_dbt_model_id....................... [RUN]
+[2022-01-21 10:44:13,110] {subprocess.py:89} INFO - 10:44:13 | 3 of 4 PASS unique_my_first_dbt_model_id............................. [[32mPASS[0m in 0.51s]
+[2022-01-21 10:44:13,111] {subprocess.py:89} INFO - 10:44:13 | 4 of 4 START test unique_my_second_dbt_model_id...................... [RUN]
+[2022-01-21 10:44:13,702] {subprocess.py:89} INFO - 10:44:13 | 4 of 4 PASS unique_my_second_dbt_model_id............................ [[32mPASS[0m in 0.59s]
+[2022-01-21 10:44:13,750] {subprocess.py:89} INFO - 10:44:13 |
+[2022-01-21 10:44:13,750] {subprocess.py:89} INFO - 10:44:13 | Finished running 4 tests in 3.02s.
+[2022-01-21 10:44:13,757] {subprocess.py:89} INFO - 
+[2022-01-21 10:44:13,757] {subprocess.py:89} INFO - [31mCompleted with 1 error and 0 warnings:[0m
+[2022-01-21 10:44:13,757] {subprocess.py:89} INFO - 
+[2022-01-21 10:44:13,758] {subprocess.py:89} INFO - [31mFailure in test not_null_my_first_dbt_model_id (models/example/schema.yml)[0m
+[2022-01-21 10:44:13,758] {subprocess.py:89} INFO -   Got 1 result, configured to fail if != 0
+[2022-01-21 10:44:13,758] {subprocess.py:89} INFO - 
+[2022-01-21 10:44:13,758] {subprocess.py:89} INFO -   compiled SQL at target/compiled/jaffle_shop/models/example/schema.yml/schema_test/not_null_my_first_dbt_model_id.sql
+[2022-01-21 10:44:13,759] {subprocess.py:89} INFO - 
+[2022-01-21 10:44:13,759] {subprocess.py:89} INFO - Done. PASS=3 WARN=0 ERROR=1 SKIP=0 TOTAL=4
+[2022-01-21 10:44:15,341] {subprocess.py:93} INFO - Command exited with return code 1
+[2022-01-21 10:44:15,363] {taskinstance.py:1700} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-01-21 10:44:15,373] {taskinstance.py:1277} INFO - Marking task as FAILED. dag_id=dbt_basic_dag, task_id=dbt_test, execution_date=20220121T104343, start_date=20220121T104404, end_date=20220121T104415
+[2022-01-21 10:44:15,392] {standard_task_runner.py:92} ERROR - Failed to execute job 5 for task dbt_test
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1329, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1455, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1511, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/bash.py", line 188, in execute
+    f'Bash command failed. The command returned a non-zero exit code {result.exit_code}.'
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2022-01-21 10:44:15,420] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-21 10:44:15,454] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

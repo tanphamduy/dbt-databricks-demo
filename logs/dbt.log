@@ -1,0 +1,80 @@
+
+
+============================== 2022-02-11 10:17:08.946908 | 94029431-38f9-4601-b257-c389fc3eefe3 ==============================
+10:17:08.946908 [info ] [MainThread]: Running with dbt=1.0.1
+10:17:08.949409 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/airflow/.dbt', project_dir=None, project_name='dbt_demo', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+10:17:08.950043 [debug] [MainThread]: Tracking: tracking
+10:17:08.960365 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff0e1072050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff0e1010310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff0e10e2810>]}
+10:17:08.961499 [info ] [MainThread]: Creating dbt configuration folder at /home/airflow/.dbt
+10:17:08.963026 [debug] [MainThread]: Starter project path: /home/airflow/.local/lib/python3.7/site-packages/dbt/include/starter_project
+10:17:17.374090 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff0e106f510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff0e106f250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff0e106f410>]}
+
+
+============================== 2022-02-11 10:17:27.951527 | ef980f0b-165c-49c9-b783-ee6a6ce49cf4 ==============================
+10:17:27.951527 [info ] [MainThread]: Running with dbt=1.0.1
+10:17:27.953894 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/airflow/.dbt', project_dir=None, project_name='dbt_demo', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+10:17:27.954282 [debug] [MainThread]: Tracking: tracking
+10:17:27.964108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7775f95c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7776005990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7776005a10>]}
+10:17:27.965233 [info ] [MainThread]: A project called dbt_demo already exists here.
+10:17:27.965794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7776005a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7776005e90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7776098690>]}
+
+
+============================== 2022-02-11 10:19:01.444787 | 167a7920-aae7-48c7-b7d8-5edc360a6cc4 ==============================
+10:19:01.444787 [info ] [MainThread]: Running with dbt=1.0.1
+10:19:01.447092 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/airflow/.dbt', project_dir=None, project_name='dbt_demo', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+10:19:01.447635 [debug] [MainThread]: Tracking: tracking
+10:19:01.459100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c5efa7390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c645b34d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c5ef45350>]}
+10:19:01.460784 [debug] [MainThread]: Starter project path: /home/airflow/.local/lib/python3.7/site-packages/dbt/include/starter_project
+10:19:03.383354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c5efa5650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c5efa5950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6c5efa55d0>]}
+
+
+============================== 2022-02-14 03:28:34.307438 | 33d52112-c57f-468c-b0c0-e631673a5994 ==============================
+03:28:34.307438 [info ] [MainThread]: Running with dbt=1.0.1
+03:28:34.310682 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/airflow/.dbt', project_dir=None, project_name='dbt_databricks', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+03:28:34.311092 [debug] [MainThread]: Tracking: tracking
+03:28:34.325520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f09739faed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0979006390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0973a6a910>]}
+03:28:34.326850 [debug] [MainThread]: Starter project path: /home/airflow/.local/lib/python3.7/site-packages/dbt/include/starter_project
+03:37:45.232305 [info ] [MainThread]: Profile dbt_databricks written to /home/airflow/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+03:37:45.233737 [info ] [MainThread]: 
+Your new dbt project "dbt_databricks" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+03:37:45.234534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0973afd190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0973a6aa50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0973a6a910>]}
+
+
+============================== 2022-02-14 03:52:53.731729 | b0026937-bf3d-4597-905f-c973e3f82c18 ==============================
+03:52:53.731729 [info ] [MainThread]: Running with dbt=1.0.1
+03:52:53.732250 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.init.InitTask'>, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='/home/airflow/.dbt', project_dir=None, project_name='dbt_databricks_demo', record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, skip_profile_setup=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='init', write_json=None)
+03:52:53.732697 [debug] [MainThread]: Tracking: tracking
+03:52:53.743112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe0464b690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe09c57610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe09c57410>]}
+03:52:53.744444 [debug] [MainThread]: Starter project path: /home/airflow/.local/lib/python3.7/site-packages/dbt/include/starter_project
+03:53:47.956652 [info ] [MainThread]: Profile dbt_databricks_demo written to /home/airflow/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+03:53:47.957580 [info ] [MainThread]: 
+Your new dbt project "dbt_databricks_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+03:53:47.958842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe0426a090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe0426a110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efe0426a190>]}

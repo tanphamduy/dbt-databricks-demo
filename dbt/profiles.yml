@@ -1,0 +1,13 @@
+jaffle_shop:
+  outputs:
+    dev:
+      account: xx69341.southeast-asia.azure
+      database: OMG
+      password: hueg3FjrjfkW2w2
+      role: SYSADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: tanphamduy777
+      warehouse: COMPUTE_WH
+  target: dev

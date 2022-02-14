@@ -1,0 +1,560 @@
+[2022-01-28 07:15:05,458] {processor.py:163} INFO - Started process (PID=48) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:15:05,459] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:15:05,471] {logging_mixin.py:109} INFO - [2022-01-28 07:15:05,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:15:05,484] {logging_mixin.py:109} INFO - [2022-01-28 07:15:05,483] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:15:05,551] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:15:05,604] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.163 seconds
+[2022-01-28 07:15:35,697] {processor.py:163} INFO - Started process (PID=105) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:15:35,699] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:15:35,700] {logging_mixin.py:109} INFO - [2022-01-28 07:15:35,700] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:15:35,712] {logging_mixin.py:109} INFO - [2022-01-28 07:15:35,711] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:15:35,733] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:15:35,742] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.051 seconds
+[2022-01-28 07:16:06,062] {processor.py:163} INFO - Started process (PID=162) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:16:06,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:16:06,064] {logging_mixin.py:109} INFO - [2022-01-28 07:16:06,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:16:06,074] {logging_mixin.py:109} INFO - [2022-01-28 07:16:06,073] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:16:06,094] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:16:06,105] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.047 seconds
+[2022-01-28 07:16:36,400] {processor.py:163} INFO - Started process (PID=229) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:16:36,402] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:16:36,403] {logging_mixin.py:109} INFO - [2022-01-28 07:16:36,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:16:36,411] {logging_mixin.py:109} INFO - [2022-01-28 07:16:36,410] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:16:36,430] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:16:36,440] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:17:06,613] {processor.py:163} INFO - Started process (PID=286) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:17:06,615] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:17:06,616] {logging_mixin.py:109} INFO - [2022-01-28 07:17:06,616] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:17:06,627] {logging_mixin.py:109} INFO - [2022-01-28 07:17:06,626] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:17:06,650] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:17:06,659] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.051 seconds
+[2022-01-28 07:17:36,981] {processor.py:163} INFO - Started process (PID=343) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:17:36,982] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:17:36,983] {logging_mixin.py:109} INFO - [2022-01-28 07:17:36,983] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:17:36,991] {logging_mixin.py:109} INFO - [2022-01-28 07:17:36,991] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:17:37,009] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:17:37,017] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.043 seconds
+[2022-01-28 07:18:07,556] {processor.py:163} INFO - Started process (PID=409) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:18:07,558] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:18:07,559] {logging_mixin.py:109} INFO - [2022-01-28 07:18:07,559] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:18:07,572] {logging_mixin.py:109} INFO - [2022-01-28 07:18:07,571] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:18:07,596] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:18:07,607] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.058 seconds
+[2022-01-28 07:18:37,995] {processor.py:163} INFO - Started process (PID=468) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:18:37,997] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:18:37,998] {logging_mixin.py:109} INFO - [2022-01-28 07:18:37,997] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:18:38,008] {logging_mixin.py:109} INFO - [2022-01-28 07:18:38,007] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:18:38,025] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:18:38,033] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.042 seconds
+[2022-01-28 07:19:08,733] {processor.py:163} INFO - Started process (PID=525) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:19:08,734] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:19:08,735] {logging_mixin.py:109} INFO - [2022-01-28 07:19:08,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:19:08,746] {logging_mixin.py:109} INFO - [2022-01-28 07:19:08,745] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:19:08,765] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:19:08,776] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.047 seconds
+[2022-01-28 07:19:39,240] {processor.py:163} INFO - Started process (PID=594) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:19:39,241] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:19:39,242] {logging_mixin.py:109} INFO - [2022-01-28 07:19:39,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:19:39,254] {logging_mixin.py:109} INFO - [2022-01-28 07:19:39,253] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:19:39,275] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:19:39,284] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.050 seconds
+[2022-01-28 07:20:09,692] {processor.py:163} INFO - Started process (PID=653) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:20:09,693] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:20:09,694] {logging_mixin.py:109} INFO - [2022-01-28 07:20:09,694] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:20:09,703] {logging_mixin.py:109} INFO - [2022-01-28 07:20:09,702] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:20:09,722] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:20:09,730] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.043 seconds
+[2022-01-28 07:20:40,204] {processor.py:163} INFO - Started process (PID=712) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:20:40,205] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:20:40,206] {logging_mixin.py:109} INFO - [2022-01-28 07:20:40,206] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:20:40,215] {logging_mixin.py:109} INFO - [2022-01-28 07:20:40,215] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:20:40,235] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:20:40,248] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.048 seconds
+[2022-01-28 07:21:10,669] {processor.py:163} INFO - Started process (PID=770) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:21:10,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:21:10,673] {logging_mixin.py:109} INFO - [2022-01-28 07:21:10,673] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:21:10,688] {logging_mixin.py:109} INFO - [2022-01-28 07:21:10,687] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:21:10,728] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:21:10,738] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.073 seconds
+[2022-01-28 07:21:41,267] {processor.py:163} INFO - Started process (PID=838) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:21:41,269] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:21:41,270] {logging_mixin.py:109} INFO - [2022-01-28 07:21:41,270] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:21:41,286] {logging_mixin.py:109} INFO - [2022-01-28 07:21:41,284] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:21:41,308] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:21:41,319] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.057 seconds
+[2022-01-28 07:22:11,787] {processor.py:163} INFO - Started process (PID=896) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:22:11,788] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:22:11,789] {logging_mixin.py:109} INFO - [2022-01-28 07:22:11,789] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:22:11,799] {logging_mixin.py:109} INFO - [2022-01-28 07:22:11,798] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:22:11,819] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:22:11,827] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:22:42,279] {processor.py:163} INFO - Started process (PID=952) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:22:42,280] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:22:42,281] {logging_mixin.py:109} INFO - [2022-01-28 07:22:42,281] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:22:42,289] {logging_mixin.py:109} INFO - [2022-01-28 07:22:42,288] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:22:42,312] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:22:42,321] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.047 seconds
+[2022-01-28 07:23:12,474] {processor.py:163} INFO - Started process (PID=1019) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:23:12,481] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:23:12,482] {logging_mixin.py:109} INFO - [2022-01-28 07:23:12,482] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:23:12,492] {logging_mixin.py:109} INFO - [2022-01-28 07:23:12,491] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:23:12,517] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:23:12,528] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.059 seconds
+[2022-01-28 07:23:43,163] {processor.py:163} INFO - Started process (PID=1078) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:23:43,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:23:43,166] {logging_mixin.py:109} INFO - [2022-01-28 07:23:43,166] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:23:43,177] {logging_mixin.py:109} INFO - [2022-01-28 07:23:43,176] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:23:43,196] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:23:43,203] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.045 seconds
+[2022-01-28 07:24:13,684] {processor.py:163} INFO - Started process (PID=1135) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:24:13,685] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:24:13,686] {logging_mixin.py:109} INFO - [2022-01-28 07:24:13,686] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:24:13,694] {logging_mixin.py:109} INFO - [2022-01-28 07:24:13,693] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:24:13,716] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:24:13,727] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.047 seconds
+[2022-01-28 07:24:44,360] {processor.py:163} INFO - Started process (PID=1205) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:24:44,361] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:24:44,362] {logging_mixin.py:109} INFO - [2022-01-28 07:24:44,362] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:24:44,371] {logging_mixin.py:109} INFO - [2022-01-28 07:24:44,371] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:24:44,389] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:24:44,397] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.042 seconds
+[2022-01-28 07:25:15,023] {processor.py:163} INFO - Started process (PID=1261) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:25:15,024] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:25:15,025] {logging_mixin.py:109} INFO - [2022-01-28 07:25:15,025] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:25:15,034] {logging_mixin.py:109} INFO - [2022-01-28 07:25:15,033] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:25:15,057] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:25:15,066] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.047 seconds
+[2022-01-28 07:25:45,926] {processor.py:163} INFO - Started process (PID=1320) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:25:45,930] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:25:45,931] {logging_mixin.py:109} INFO - [2022-01-28 07:25:45,931] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:25:45,943] {logging_mixin.py:109} INFO - [2022-01-28 07:25:45,941] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:25:45,969] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:25:45,982] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.062 seconds
+[2022-01-28 07:26:16,349] {processor.py:163} INFO - Started process (PID=1387) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:26:16,350] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:26:16,351] {logging_mixin.py:109} INFO - [2022-01-28 07:26:16,351] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:26:16,360] {logging_mixin.py:109} INFO - [2022-01-28 07:26:16,359] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:26:16,379] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:26:16,389] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:26:46,879] {processor.py:163} INFO - Started process (PID=1445) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:26:46,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:26:46,882] {logging_mixin.py:109} INFO - [2022-01-28 07:26:46,882] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:26:46,893] {logging_mixin.py:109} INFO - [2022-01-28 07:26:46,892] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:26:46,918] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:26:46,931] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.057 seconds
+[2022-01-28 07:27:17,358] {processor.py:163} INFO - Started process (PID=1502) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:27:17,359] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:27:17,360] {logging_mixin.py:109} INFO - [2022-01-28 07:27:17,360] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:27:17,369] {logging_mixin.py:109} INFO - [2022-01-28 07:27:17,368] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:27:17,389] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:27:17,397] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.043 seconds
+[2022-01-28 07:27:47,760] {processor.py:163} INFO - Started process (PID=1571) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:27:47,762] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:27:47,763] {logging_mixin.py:109} INFO - [2022-01-28 07:27:47,763] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:27:47,776] {logging_mixin.py:109} INFO - [2022-01-28 07:27:47,775] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:27:47,796] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:27:47,806] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.050 seconds
+[2022-01-28 07:28:17,963] {processor.py:163} INFO - Started process (PID=1628) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:28:17,965] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:28:17,966] {logging_mixin.py:109} INFO - [2022-01-28 07:28:17,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:28:17,978] {logging_mixin.py:109} INFO - [2022-01-28 07:28:17,977] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:28:18,001] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:28:18,011] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.053 seconds
+[2022-01-28 07:28:48,497] {processor.py:163} INFO - Started process (PID=1686) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:28:48,498] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:28:48,499] {logging_mixin.py:109} INFO - [2022-01-28 07:28:48,499] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:28:48,507] {logging_mixin.py:109} INFO - [2022-01-28 07:28:48,507] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:28:48,528] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:28:48,537] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:29:19,037] {processor.py:163} INFO - Started process (PID=1753) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:29:19,039] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:29:19,040] {logging_mixin.py:109} INFO - [2022-01-28 07:29:19,040] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:29:19,049] {logging_mixin.py:109} INFO - [2022-01-28 07:29:19,048] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:29:19,065] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:29:19,073] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.040 seconds
+[2022-01-28 07:29:49,509] {processor.py:163} INFO - Started process (PID=1809) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:29:49,511] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:29:49,512] {logging_mixin.py:109} INFO - [2022-01-28 07:29:49,512] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:29:49,520] {logging_mixin.py:109} INFO - [2022-01-28 07:29:49,519] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:29:49,539] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:29:49,547] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.042 seconds
+[2022-01-28 07:30:20,083] {processor.py:163} INFO - Started process (PID=1866) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:30:20,085] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:30:20,086] {logging_mixin.py:109} INFO - [2022-01-28 07:30:20,086] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:30:20,098] {logging_mixin.py:109} INFO - [2022-01-28 07:30:20,097] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:30:20,118] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:30:20,127] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.049 seconds
+[2022-01-28 07:30:50,558] {processor.py:163} INFO - Started process (PID=1935) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:30:50,561] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:30:50,561] {logging_mixin.py:109} INFO - [2022-01-28 07:30:50,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:30:50,573] {logging_mixin.py:109} INFO - [2022-01-28 07:30:50,572] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:30:50,615] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:30:50,635] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.081 seconds
+[2022-01-28 07:31:21,224] {processor.py:163} INFO - Started process (PID=1992) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:31:21,226] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:31:21,227] {logging_mixin.py:109} INFO - [2022-01-28 07:31:21,227] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:31:21,238] {logging_mixin.py:109} INFO - [2022-01-28 07:31:21,237] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:31:21,256] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:31:21,265] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.046 seconds
+[2022-01-28 07:31:51,832] {processor.py:163} INFO - Started process (PID=2050) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:31:51,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:31:51,835] {logging_mixin.py:109} INFO - [2022-01-28 07:31:51,834] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:31:51,843] {logging_mixin.py:109} INFO - [2022-01-28 07:31:51,842] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:31:51,862] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:31:51,871] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.043 seconds
+[2022-01-28 07:32:22,153] {processor.py:163} INFO - Started process (PID=2108) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:32:22,156] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:32:22,157] {logging_mixin.py:109} INFO - [2022-01-28 07:32:22,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:32:22,169] {logging_mixin.py:109} INFO - [2022-01-28 07:32:22,167] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:32:22,193] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:32:22,244] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.097 seconds
+[2022-01-28 07:32:52,486] {processor.py:163} INFO - Started process (PID=2177) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:32:52,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:32:52,488] {logging_mixin.py:109} INFO - [2022-01-28 07:32:52,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:32:52,498] {logging_mixin.py:109} INFO - [2022-01-28 07:32:52,497] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:32:52,516] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:32:52,526] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:33:23,251] {processor.py:163} INFO - Started process (PID=2235) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:33:23,253] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:33:23,253] {logging_mixin.py:109} INFO - [2022-01-28 07:33:23,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:33:23,261] {logging_mixin.py:109} INFO - [2022-01-28 07:33:23,260] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:33:23,282] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:33:23,291] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:33:53,715] {processor.py:163} INFO - Started process (PID=2293) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:33:53,716] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:33:53,717] {logging_mixin.py:109} INFO - [2022-01-28 07:33:53,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:33:53,726] {logging_mixin.py:109} INFO - [2022-01-28 07:33:53,725] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:33:53,744] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:33:53,755] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.044 seconds
+[2022-01-28 07:34:23,851] {processor.py:163} INFO - Started process (PID=2361) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:34:23,852] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:34:23,853] {logging_mixin.py:109} INFO - [2022-01-28 07:34:23,853] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:34:23,863] {logging_mixin.py:109} INFO - [2022-01-28 07:34:23,862] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:34:23,883] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:34:23,891] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.045 seconds
+[2022-01-28 07:34:54,371] {processor.py:163} INFO - Started process (PID=2419) to work on /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:34:54,373] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_s3_snowflake.py for tasks to queue
+[2022-01-28 07:34:54,374] {logging_mixin.py:109} INFO - [2022-01-28 07:34:54,374] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:34:54,384] {logging_mixin.py:109} INFO - [2022-01-28 07:34:54,383] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_s3_snowflake.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_s3_snowflake.py", line 5, in <module>
+    from airflow.providers.snowflake.transfers.s3_to_snowflake import S3ToSnowflakeOperator
+ModuleNotFoundError: No module named 'airflow.providers.snowflake'
+[2022-01-28 07:34:54,404] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_s3_snowflake.py
+[2022-01-28 07:34:54,414] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_s3_snowflake.py took 0.048 seconds

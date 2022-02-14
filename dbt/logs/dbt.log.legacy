@@ -1,0 +1,140 @@
+2022-01-13 02:42:39.107466 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 02:42:39.107864 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 02:42:41.954171 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:41.959776 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:41.965206 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:41.980504 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:41.986997 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.017506 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.043890 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.044956 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.050602 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.056376 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.064703 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.071367 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.076790 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.093702 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.099245 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.104618 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.110575 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.132884 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.134547 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.143704 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.153148 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.190204 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.192686 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 02:42:42.308229 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 02:43:36.562011 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 02:43:36.562390 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:41:45.194361 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:41:45.194746 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:47:42.633518 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:47:42.634088 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:47:44.009481 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.015465 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.049758 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.050793 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.055490 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.060960 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.066080 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.071214 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.087423 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.089062 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:47:44.158063 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 07:59:15.283325 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:59:15.283729 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 07:59:16.459323 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:59:16.464717 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:59:16.484249 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 07:59:16.544157 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 07:59:20.375221 (Thread-1): unclosed <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.8.105', 51436), raddr=('13.67.89.58', 443)>
+2022-01-13 08:00:35.888754 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:00:35.889130 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:00:37.082482 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:00:37.087055 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:00:37.098851 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:00:37.103641 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:00:37.124214 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:00:37.184134 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 08:02:03.334718 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:02:03.335140 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:02:04.572568 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:02:04.578174 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:02:04.637745 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 08:04:00.302806 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:04:00.303214 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:04:01.454834 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 08:04:51.917683 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:04:51.918118 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:04:53.081674 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 08:13:28.516449 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:13:28.516839 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 08:13:29.721160 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 08:13:29.786854 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 14:02:30.757291 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 14:02:30.757671 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 14:02:32.308052 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.316509 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.336678 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.344402 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.381799 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.382839 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.388787 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.395262 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.411143 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.412146 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.417381 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.424216 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:02:32.506226 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 14:04:41.393048 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 14:04:41.393353 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 14:04:42.606749 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 14:07:11.936832 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 14:07:11.937227 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 14:07:13.398663 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.405577 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.448915 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.450146 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.458046 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.467856 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.494552 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.496198 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.503259 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.511293 (MainThread): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-13 14:07:13.588987 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 14:08:35.549722 (MainThread): The 'warn' method is deprecated, use 'warning' instead
+2022-01-13 15:37:00.458887 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:37:00.459254 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:37:45.535906 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:37:45.536307 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:37:46.727556 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 15:41:50.165679 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:41:50.166055 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:41:51.380126 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 15:46:24.557744 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:46:24.558120 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:48:22.555827 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:48:22.556211 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:48:23.753181 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-13 15:49:37.160093 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:49:37.160523 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:51:43.704563 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:51:43.704962 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-13 15:51:44.894394 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-14 03:35:29.932380 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 03:35:29.932912 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 03:35:37.056800 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-14 03:35:43.555239 (Thread-1): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-14 03:35:43.556163 (Thread-1): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-14 03:35:43.556710 (Thread-1): 'soft_unicode' has been renamed to 'soft_str'. The old name will be removed in MarkupSafe 2.1.
+2022-01-14 03:41:22.169572 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 03:41:22.169937 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 03:41:23.453502 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-14 03:56:09.746003 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 03:56:09.746428 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 03:56:11.058160 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-14 04:01:59.570211 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 04:01:59.570629 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 04:02:00.928166 (MainThread): write_gpickle is deprecated and will be removed in 3.0.Use ``pickle.dump(G, path, protocol)``
+2022-01-14 04:02:56.459205 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead
+2022-01-14 04:02:56.459562 (MainThread): int_from_bytes is deprecated, use int.from_bytes instead

@@ -1,0 +1,560 @@
+[2022-01-28 07:15:05,476] {processor.py:163} INFO - Started process (PID=49) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:15:05,477] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:15:05,478] {logging_mixin.py:109} INFO - [2022-01-28 07:15:05,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:15:05,515] {logging_mixin.py:109} INFO - [2022-01-28 07:15:05,510] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:15:05,553] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:15:05,597] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.125 seconds
+[2022-01-28 07:15:35,719] {processor.py:163} INFO - Started process (PID=106) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:15:35,721] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:15:35,721] {logging_mixin.py:109} INFO - [2022-01-28 07:15:35,721] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:15:35,730] {logging_mixin.py:109} INFO - [2022-01-28 07:15:35,729] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:15:35,749] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:15:35,759] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.044 seconds
+[2022-01-28 07:16:06,069] {processor.py:163} INFO - Started process (PID=163) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:16:06,071] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:16:06,072] {logging_mixin.py:109} INFO - [2022-01-28 07:16:06,072] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:16:06,085] {logging_mixin.py:109} INFO - [2022-01-28 07:16:06,083] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:16:06,104] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:16:06,117] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.053 seconds
+[2022-01-28 07:16:36,413] {processor.py:163} INFO - Started process (PID=230) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:16:36,415] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:16:36,416] {logging_mixin.py:109} INFO - [2022-01-28 07:16:36,416] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:16:36,424] {logging_mixin.py:109} INFO - [2022-01-28 07:16:36,423] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:16:36,441] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:16:36,450] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.041 seconds
+[2022-01-28 07:17:06,619] {processor.py:163} INFO - Started process (PID=287) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:17:06,621] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:17:06,622] {logging_mixin.py:109} INFO - [2022-01-28 07:17:06,622] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:17:06,633] {logging_mixin.py:109} INFO - [2022-01-28 07:17:06,632] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:17:06,656] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:17:06,670] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.056 seconds
+[2022-01-28 07:17:36,982] {processor.py:163} INFO - Started process (PID=344) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:17:36,983] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:17:36,984] {logging_mixin.py:109} INFO - [2022-01-28 07:17:36,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:17:36,993] {logging_mixin.py:109} INFO - [2022-01-28 07:17:36,992] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:17:37,011] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:17:37,019] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.042 seconds
+[2022-01-28 07:18:07,560] {processor.py:163} INFO - Started process (PID=410) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:18:07,562] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:18:07,563] {logging_mixin.py:109} INFO - [2022-01-28 07:18:07,562] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:18:07,574] {logging_mixin.py:109} INFO - [2022-01-28 07:18:07,573] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:18:07,595] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:18:07,606] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.051 seconds
+[2022-01-28 07:18:38,001] {processor.py:163} INFO - Started process (PID=469) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:18:38,002] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:18:38,003] {logging_mixin.py:109} INFO - [2022-01-28 07:18:38,002] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:18:38,011] {logging_mixin.py:109} INFO - [2022-01-28 07:18:38,011] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:18:38,033] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:18:38,045] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.048 seconds
+[2022-01-28 07:19:08,742] {processor.py:163} INFO - Started process (PID=526) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:19:08,745] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:19:08,746] {logging_mixin.py:109} INFO - [2022-01-28 07:19:08,745] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:19:08,759] {logging_mixin.py:109} INFO - [2022-01-28 07:19:08,758] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:19:08,783] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:19:08,795] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.059 seconds
+[2022-01-28 07:19:39,245] {processor.py:163} INFO - Started process (PID=595) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:19:39,246] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:19:39,247] {logging_mixin.py:109} INFO - [2022-01-28 07:19:39,247] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:19:39,256] {logging_mixin.py:109} INFO - [2022-01-28 07:19:39,255] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:19:39,277] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:19:39,288] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.047 seconds
+[2022-01-28 07:20:09,703] {processor.py:163} INFO - Started process (PID=654) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:20:09,705] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:20:09,706] {logging_mixin.py:109} INFO - [2022-01-28 07:20:09,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:20:09,720] {logging_mixin.py:109} INFO - [2022-01-28 07:20:09,719] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:20:09,744] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:20:09,756] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.060 seconds
+[2022-01-28 07:20:40,211] {processor.py:163} INFO - Started process (PID=713) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:20:40,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:20:40,213] {logging_mixin.py:109} INFO - [2022-01-28 07:20:40,213] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:20:40,222] {logging_mixin.py:109} INFO - [2022-01-28 07:20:40,221] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:20:40,240] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:20:40,248] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.043 seconds
+[2022-01-28 07:21:10,693] {processor.py:163} INFO - Started process (PID=771) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:21:10,694] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:21:10,695] {logging_mixin.py:109} INFO - [2022-01-28 07:21:10,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:21:10,715] {logging_mixin.py:109} INFO - [2022-01-28 07:21:10,714] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:21:10,747] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:21:10,755] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.079 seconds
+[2022-01-28 07:21:41,270] {processor.py:163} INFO - Started process (PID=839) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:21:41,271] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:21:41,272] {logging_mixin.py:109} INFO - [2022-01-28 07:21:41,272] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:21:41,282] {logging_mixin.py:109} INFO - [2022-01-28 07:21:41,281] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:21:41,302] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:21:41,312] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.046 seconds
+[2022-01-28 07:22:11,793] {processor.py:163} INFO - Started process (PID=897) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:22:11,794] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:22:11,795] {logging_mixin.py:109} INFO - [2022-01-28 07:22:11,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:22:11,805] {logging_mixin.py:109} INFO - [2022-01-28 07:22:11,805] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:22:11,825] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:22:11,835] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.046 seconds
+[2022-01-28 07:22:42,283] {processor.py:163} INFO - Started process (PID=953) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:22:42,285] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:22:42,285] {logging_mixin.py:109} INFO - [2022-01-28 07:22:42,285] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:22:42,294] {logging_mixin.py:109} INFO - [2022-01-28 07:22:42,293] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:22:42,319] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:22:42,330] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.052 seconds
+[2022-01-28 07:23:12,481] {processor.py:163} INFO - Started process (PID=1020) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:23:12,485] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:23:12,486] {logging_mixin.py:109} INFO - [2022-01-28 07:23:12,486] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:23:12,495] {logging_mixin.py:109} INFO - [2022-01-28 07:23:12,494] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:23:12,517] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:23:12,526] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.049 seconds
+[2022-01-28 07:23:43,168] {processor.py:163} INFO - Started process (PID=1079) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:23:43,170] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:23:43,171] {logging_mixin.py:109} INFO - [2022-01-28 07:23:43,171] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:23:43,180] {logging_mixin.py:109} INFO - [2022-01-28 07:23:43,179] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:23:43,198] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:23:43,207] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.043 seconds
+[2022-01-28 07:24:13,692] {processor.py:163} INFO - Started process (PID=1136) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:24:13,694] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:24:13,695] {logging_mixin.py:109} INFO - [2022-01-28 07:24:13,695] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:24:13,707] {logging_mixin.py:109} INFO - [2022-01-28 07:24:13,706] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:24:13,732] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:24:13,744] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.057 seconds
+[2022-01-28 07:24:44,367] {processor.py:163} INFO - Started process (PID=1206) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:24:44,368] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:24:44,369] {logging_mixin.py:109} INFO - [2022-01-28 07:24:44,369] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:24:44,378] {logging_mixin.py:109} INFO - [2022-01-28 07:24:44,378] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:24:44,395] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:24:44,407] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.045 seconds
+[2022-01-28 07:25:15,028] {processor.py:163} INFO - Started process (PID=1262) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:25:15,029] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:25:15,030] {logging_mixin.py:109} INFO - [2022-01-28 07:25:15,029] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:25:15,039] {logging_mixin.py:109} INFO - [2022-01-28 07:25:15,038] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:25:15,059] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:25:15,067] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.043 seconds
+[2022-01-28 07:25:45,932] {processor.py:163} INFO - Started process (PID=1321) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:25:45,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:25:45,935] {logging_mixin.py:109} INFO - [2022-01-28 07:25:45,934] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:25:45,946] {logging_mixin.py:109} INFO - [2022-01-28 07:25:45,945] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:25:45,970] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:25:45,982] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.055 seconds
+[2022-01-28 07:26:16,361] {processor.py:163} INFO - Started process (PID=1388) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:26:16,362] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:26:16,363] {logging_mixin.py:109} INFO - [2022-01-28 07:26:16,363] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:26:16,376] {logging_mixin.py:109} INFO - [2022-01-28 07:26:16,375] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:26:16,401] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:26:16,412] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.058 seconds
+[2022-01-28 07:26:46,884] {processor.py:163} INFO - Started process (PID=1446) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:26:46,886] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:26:46,887] {logging_mixin.py:109} INFO - [2022-01-28 07:26:46,887] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:26:46,899] {logging_mixin.py:109} INFO - [2022-01-28 07:26:46,898] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:26:46,919] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:26:46,927] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.048 seconds
+[2022-01-28 07:27:17,365] {processor.py:163} INFO - Started process (PID=1503) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:27:17,366] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:27:17,367] {logging_mixin.py:109} INFO - [2022-01-28 07:27:17,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:27:17,376] {logging_mixin.py:109} INFO - [2022-01-28 07:27:17,375] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:27:17,395] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:27:17,406] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.046 seconds
+[2022-01-28 07:27:47,766] {processor.py:163} INFO - Started process (PID=1572) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:27:47,768] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:27:47,769] {logging_mixin.py:109} INFO - [2022-01-28 07:27:47,768] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:27:47,778] {logging_mixin.py:109} INFO - [2022-01-28 07:27:47,777] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:27:47,795] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:27:47,803] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.041 seconds
+[2022-01-28 07:28:17,970] {processor.py:163} INFO - Started process (PID=1629) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:28:17,971] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:28:17,972] {logging_mixin.py:109} INFO - [2022-01-28 07:28:17,972] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:28:17,982] {logging_mixin.py:109} INFO - [2022-01-28 07:28:17,981] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:28:18,003] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:28:18,017] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.052 seconds
+[2022-01-28 07:28:48,507] {processor.py:163} INFO - Started process (PID=1687) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:28:48,508] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:28:48,509] {logging_mixin.py:109} INFO - [2022-01-28 07:28:48,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:28:48,519] {logging_mixin.py:109} INFO - [2022-01-28 07:28:48,518] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:28:48,539] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:28:48,551] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.049 seconds
+[2022-01-28 07:29:19,045] {processor.py:163} INFO - Started process (PID=1754) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:29:19,048] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:29:19,049] {logging_mixin.py:109} INFO - [2022-01-28 07:29:19,048] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:29:19,062] {logging_mixin.py:109} INFO - [2022-01-28 07:29:19,061] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:29:19,087] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:29:19,098] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.058 seconds
+[2022-01-28 07:29:49,515] {processor.py:163} INFO - Started process (PID=1810) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:29:49,517] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:29:49,518] {logging_mixin.py:109} INFO - [2022-01-28 07:29:49,518] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:29:49,527] {logging_mixin.py:109} INFO - [2022-01-28 07:29:49,527] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:29:49,545] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:29:49,557] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.046 seconds
+[2022-01-28 07:30:20,088] {processor.py:163} INFO - Started process (PID=1867) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:30:20,089] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:30:20,090] {logging_mixin.py:109} INFO - [2022-01-28 07:30:20,090] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:30:20,100] {logging_mixin.py:109} INFO - [2022-01-28 07:30:20,099] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:30:20,118] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:30:20,127] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.043 seconds
+[2022-01-28 07:30:50,564] {processor.py:163} INFO - Started process (PID=1936) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:30:50,574] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:30:50,575] {logging_mixin.py:109} INFO - [2022-01-28 07:30:50,575] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:30:50,584] {logging_mixin.py:109} INFO - [2022-01-28 07:30:50,584] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:30:50,631] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:30:50,648] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.090 seconds
+[2022-01-28 07:31:21,228] {processor.py:163} INFO - Started process (PID=1993) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:31:21,230] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:31:21,231] {logging_mixin.py:109} INFO - [2022-01-28 07:31:21,230] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:31:21,240] {logging_mixin.py:109} INFO - [2022-01-28 07:31:21,240] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:31:21,257] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:31:21,265] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.041 seconds
+[2022-01-28 07:31:51,842] {processor.py:163} INFO - Started process (PID=2051) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:31:51,844] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:31:51,845] {logging_mixin.py:109} INFO - [2022-01-28 07:31:51,845] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:31:51,858] {logging_mixin.py:109} INFO - [2022-01-28 07:31:51,857] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:31:51,882] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:31:51,893] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.057 seconds
+[2022-01-28 07:32:22,159] {processor.py:163} INFO - Started process (PID=2109) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:32:22,161] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:32:22,162] {logging_mixin.py:109} INFO - [2022-01-28 07:32:22,162] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:32:22,173] {logging_mixin.py:109} INFO - [2022-01-28 07:32:22,172] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:32:22,194] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:32:22,243] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.089 seconds
+[2022-01-28 07:32:52,498] {processor.py:163} INFO - Started process (PID=2178) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:32:52,500] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:32:52,501] {logging_mixin.py:109} INFO - [2022-01-28 07:32:52,501] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:32:52,516] {logging_mixin.py:109} INFO - [2022-01-28 07:32:52,514] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:32:52,540] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:32:52,548] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.058 seconds
+[2022-01-28 07:33:23,259] {processor.py:163} INFO - Started process (PID=2236) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:33:23,261] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:33:23,262] {logging_mixin.py:109} INFO - [2022-01-28 07:33:23,262] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:33:23,273] {logging_mixin.py:109} INFO - [2022-01-28 07:33:23,272] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:33:23,297] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:33:23,306] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.052 seconds
+[2022-01-28 07:33:53,721] {processor.py:163} INFO - Started process (PID=2294) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:33:53,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:33:53,723] {logging_mixin.py:109} INFO - [2022-01-28 07:33:53,723] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:33:53,733] {logging_mixin.py:109} INFO - [2022-01-28 07:33:53,732] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:33:53,751] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:33:53,762] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.045 seconds
+[2022-01-28 07:34:23,856] {processor.py:163} INFO - Started process (PID=2362) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:34:23,858] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:34:23,858] {logging_mixin.py:109} INFO - [2022-01-28 07:34:23,858] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:34:23,868] {logging_mixin.py:109} INFO - [2022-01-28 07:34:23,867] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:34:23,888] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:34:23,897] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.046 seconds
+[2022-01-28 07:34:54,376] {processor.py:163} INFO - Started process (PID=2420) to work on /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:34:54,377] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced_utility.py for tasks to queue
+[2022-01-28 07:34:54,378] {logging_mixin.py:109} INFO - [2022-01-28 07:34:54,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:34:54,386] {logging_mixin.py:109} INFO - [2022-01-28 07:34:54,385] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced_utility.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced_utility.py", line 7, in <module>
+    from include.dbt_dag_parser import DbtDagParser
+ModuleNotFoundError: No module named 'include'
+[2022-01-28 07:34:54,404] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced_utility.py
+[2022-01-28 07:34:54,413] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced_utility.py took 0.042 seconds
