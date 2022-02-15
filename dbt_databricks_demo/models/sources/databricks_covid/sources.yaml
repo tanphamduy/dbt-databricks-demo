@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    tables:
+      - name: databricks_covid_us
+      - name: databricks_covid_us_states
+      - name: databricks_covid_us_counties
+      - name: databricks_covid_mask_use
