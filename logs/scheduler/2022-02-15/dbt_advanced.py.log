@@ -15630,3 +15630,1427 @@ Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
 [2022-02-15 08:15:24,725] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
 [2022-02-15 08:15:24,734] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:15:55,032] {processor.py:163} INFO - Started process (PID=665289) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:15:55,033] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:15:55,034] {logging_mixin.py:109} INFO - [2022-02-15 08:15:55,034] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:15:55,044] {logging_mixin.py:109} INFO - [2022-02-15 08:15:55,043] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:15:55,062] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:15:55,071] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:16:25,515] {processor.py:163} INFO - Started process (PID=665354) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:16:25,516] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:16:25,517] {logging_mixin.py:109} INFO - [2022-02-15 08:16:25,517] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:16:25,526] {logging_mixin.py:109} INFO - [2022-02-15 08:16:25,525] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:16:25,546] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:16:25,554] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:16:55,891] {processor.py:163} INFO - Started process (PID=665411) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:16:55,892] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:16:55,893] {logging_mixin.py:109} INFO - [2022-02-15 08:16:55,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:16:55,904] {logging_mixin.py:109} INFO - [2022-02-15 08:16:55,903] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:16:55,923] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:16:55,931] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.050 seconds
+[2022-02-15 08:17:26,397] {processor.py:163} INFO - Started process (PID=665466) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:17:26,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:17:26,400] {logging_mixin.py:109} INFO - [2022-02-15 08:17:26,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:17:26,411] {logging_mixin.py:109} INFO - [2022-02-15 08:17:26,408] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:17:26,435] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:17:26,445] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.052 seconds
+[2022-02-15 08:17:56,820] {processor.py:163} INFO - Started process (PID=665529) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:17:56,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:17:56,822] {logging_mixin.py:109} INFO - [2022-02-15 08:17:56,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:17:56,832] {logging_mixin.py:109} INFO - [2022-02-15 08:17:56,830] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:17:56,856] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:17:56,874] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.059 seconds
+[2022-02-15 08:18:27,199] {processor.py:163} INFO - Started process (PID=665584) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:18:27,200] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:18:27,201] {logging_mixin.py:109} INFO - [2022-02-15 08:18:27,201] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:18:27,214] {logging_mixin.py:109} INFO - [2022-02-15 08:18:27,213] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:18:27,236] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:18:27,244] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.051 seconds
+[2022-02-15 08:18:57,678] {processor.py:163} INFO - Started process (PID=665647) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:18:57,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:18:57,681] {logging_mixin.py:109} INFO - [2022-02-15 08:18:57,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:18:57,694] {logging_mixin.py:109} INFO - [2022-02-15 08:18:57,691] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:18:57,721] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:18:57,733] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.062 seconds
+[2022-02-15 08:19:28,051] {processor.py:163} INFO - Started process (PID=665701) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:19:28,053] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:19:28,053] {logging_mixin.py:109} INFO - [2022-02-15 08:19:28,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:19:28,063] {logging_mixin.py:109} INFO - [2022-02-15 08:19:28,062] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:19:28,083] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:19:28,091] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.045 seconds
+[2022-02-15 08:19:58,486] {processor.py:163} INFO - Started process (PID=665757) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:19:58,488] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:19:58,489] {logging_mixin.py:109} INFO - [2022-02-15 08:19:58,489] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:19:58,500] {logging_mixin.py:109} INFO - [2022-02-15 08:19:58,498] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:19:58,520] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:19:58,530] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.049 seconds
+[2022-02-15 08:20:28,894] {processor.py:163} INFO - Started process (PID=665822) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:20:28,896] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:20:28,897] {logging_mixin.py:109} INFO - [2022-02-15 08:20:28,897] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:20:28,908] {logging_mixin.py:109} INFO - [2022-02-15 08:20:28,907] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:20:28,926] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:20:28,934] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.045 seconds
+[2022-02-15 08:20:59,568] {processor.py:163} INFO - Started process (PID=665877) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:20:59,570] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:20:59,571] {logging_mixin.py:109} INFO - [2022-02-15 08:20:59,571] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:20:59,582] {logging_mixin.py:109} INFO - [2022-02-15 08:20:59,581] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:20:59,604] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:20:59,614] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.050 seconds
+[2022-02-15 08:21:30,163] {processor.py:163} INFO - Started process (PID=665932) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:21:30,165] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:21:30,166] {logging_mixin.py:109} INFO - [2022-02-15 08:21:30,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:21:30,175] {logging_mixin.py:109} INFO - [2022-02-15 08:21:30,174] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:21:30,193] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:21:30,202] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:22:00,687] {processor.py:163} INFO - Started process (PID=665996) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:22:00,688] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:22:00,690] {logging_mixin.py:109} INFO - [2022-02-15 08:22:00,690] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:22:00,701] {logging_mixin.py:109} INFO - [2022-02-15 08:22:00,700] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:22:00,721] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:22:00,732] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.050 seconds
+[2022-02-15 08:22:31,291] {processor.py:163} INFO - Started process (PID=666052) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:22:31,296] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:22:31,297] {logging_mixin.py:109} INFO - [2022-02-15 08:22:31,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:22:31,306] {logging_mixin.py:109} INFO - [2022-02-15 08:22:31,305] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:22:31,331] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:22:31,342] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.056 seconds
+[2022-02-15 08:23:01,980] {processor.py:163} INFO - Started process (PID=666120) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:23:01,981] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:23:01,982] {logging_mixin.py:109} INFO - [2022-02-15 08:23:01,982] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:23:01,992] {logging_mixin.py:109} INFO - [2022-02-15 08:23:01,991] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:23:02,011] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:23:02,019] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:23:32,672] {processor.py:163} INFO - Started process (PID=666175) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:23:32,674] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:23:32,675] {logging_mixin.py:109} INFO - [2022-02-15 08:23:32,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:23:32,689] {logging_mixin.py:109} INFO - [2022-02-15 08:23:32,688] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:23:32,713] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:23:32,722] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.055 seconds
+[2022-02-15 08:24:02,865] {processor.py:163} INFO - Started process (PID=666230) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:24:02,866] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:24:02,867] {logging_mixin.py:109} INFO - [2022-02-15 08:24:02,867] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:24:02,878] {logging_mixin.py:109} INFO - [2022-02-15 08:24:02,876] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:24:02,896] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:24:02,905] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:24:32,976] {processor.py:163} INFO - Started process (PID=666296) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:24:32,978] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:24:32,979] {logging_mixin.py:109} INFO - [2022-02-15 08:24:32,979] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:24:32,988] {logging_mixin.py:109} INFO - [2022-02-15 08:24:32,987] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:24:33,010] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:24:33,020] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.048 seconds
+[2022-02-15 08:25:03,115] {processor.py:163} INFO - Started process (PID=666351) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:25:03,116] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:25:03,117] {logging_mixin.py:109} INFO - [2022-02-15 08:25:03,117] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:25:03,128] {logging_mixin.py:109} INFO - [2022-02-15 08:25:03,127] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:25:03,150] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:25:03,163] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.053 seconds
+[2022-02-15 08:25:33,527] {processor.py:163} INFO - Started process (PID=666406) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:25:33,529] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:25:33,530] {logging_mixin.py:109} INFO - [2022-02-15 08:25:33,529] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:25:33,539] {logging_mixin.py:109} INFO - [2022-02-15 08:25:33,538] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:25:33,564] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:25:33,572] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.050 seconds
+[2022-02-15 08:26:03,674] {processor.py:163} INFO - Started process (PID=666473) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:26:03,675] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:26:03,676] {logging_mixin.py:109} INFO - [2022-02-15 08:26:03,676] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:26:03,688] {logging_mixin.py:109} INFO - [2022-02-15 08:26:03,687] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:26:03,707] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:26:03,773] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.104 seconds
+[2022-02-15 08:26:34,213] {processor.py:163} INFO - Started process (PID=666529) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:26:34,215] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:26:34,216] {logging_mixin.py:109} INFO - [2022-02-15 08:26:34,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:26:34,226] {logging_mixin.py:109} INFO - [2022-02-15 08:26:34,225] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:26:34,244] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:26:34,252] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:27:04,596] {processor.py:163} INFO - Started process (PID=666584) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:27:04,597] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:27:04,598] {logging_mixin.py:109} INFO - [2022-02-15 08:27:04,597] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:27:04,608] {logging_mixin.py:109} INFO - [2022-02-15 08:27:04,607] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:27:04,627] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:27:04,638] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:27:35,112] {processor.py:163} INFO - Started process (PID=666649) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:27:35,114] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:27:35,115] {logging_mixin.py:109} INFO - [2022-02-15 08:27:35,114] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:27:35,126] {logging_mixin.py:109} INFO - [2022-02-15 08:27:35,124] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:27:35,147] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:27:35,159] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.052 seconds
+[2022-02-15 08:28:05,535] {processor.py:163} INFO - Started process (PID=666704) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:28:05,536] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:28:05,537] {logging_mixin.py:109} INFO - [2022-02-15 08:28:05,536] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:28:05,547] {logging_mixin.py:109} INFO - [2022-02-15 08:28:05,546] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:28:05,567] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:28:05,577] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:28:35,996] {processor.py:163} INFO - Started process (PID=666766) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:28:35,998] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:28:35,999] {logging_mixin.py:109} INFO - [2022-02-15 08:28:35,999] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:28:36,008] {logging_mixin.py:109} INFO - [2022-02-15 08:28:36,007] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:28:36,028] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:28:36,038] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.045 seconds
+[2022-02-15 08:29:06,734] {processor.py:163} INFO - Started process (PID=666822) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:29:06,736] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:29:06,738] {logging_mixin.py:109} INFO - [2022-02-15 08:29:06,738] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:29:06,754] {logging_mixin.py:109} INFO - [2022-02-15 08:29:06,752] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:29:06,779] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:29:06,788] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.062 seconds
+[2022-02-15 08:29:37,036] {processor.py:163} INFO - Started process (PID=666878) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:29:37,038] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:29:37,038] {logging_mixin.py:109} INFO - [2022-02-15 08:29:37,038] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:29:37,048] {logging_mixin.py:109} INFO - [2022-02-15 08:29:37,046] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:29:37,066] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:29:37,074] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:30:07,493] {processor.py:163} INFO - Started process (PID=666946) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:30:07,494] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:30:07,495] {logging_mixin.py:109} INFO - [2022-02-15 08:30:07,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:30:07,504] {logging_mixin.py:109} INFO - [2022-02-15 08:30:07,504] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:30:07,525] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:30:07,535] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:30:37,906] {processor.py:163} INFO - Started process (PID=667003) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:30:37,907] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:30:37,908] {logging_mixin.py:109} INFO - [2022-02-15 08:30:37,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:30:37,918] {logging_mixin.py:109} INFO - [2022-02-15 08:30:37,916] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:30:37,939] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:30:37,950] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.049 seconds
+[2022-02-15 08:31:08,213] {processor.py:163} INFO - Started process (PID=667059) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:31:08,214] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:31:08,215] {logging_mixin.py:109} INFO - [2022-02-15 08:31:08,215] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:31:08,225] {logging_mixin.py:109} INFO - [2022-02-15 08:31:08,224] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:31:08,242] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:31:08,251] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:31:38,676] {processor.py:163} INFO - Started process (PID=667123) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:31:38,678] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:31:38,679] {logging_mixin.py:109} INFO - [2022-02-15 08:31:38,679] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:31:38,688] {logging_mixin.py:109} INFO - [2022-02-15 08:31:38,687] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:31:38,705] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:31:38,713] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.041 seconds
+[2022-02-15 08:32:09,059] {processor.py:163} INFO - Started process (PID=667181) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:32:09,060] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:32:09,061] {logging_mixin.py:109} INFO - [2022-02-15 08:32:09,061] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:32:09,070] {logging_mixin.py:109} INFO - [2022-02-15 08:32:09,069] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:32:09,088] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:32:09,096] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:32:39,563] {processor.py:163} INFO - Started process (PID=667236) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:32:39,565] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:32:39,566] {logging_mixin.py:109} INFO - [2022-02-15 08:32:39,566] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:32:39,575] {logging_mixin.py:109} INFO - [2022-02-15 08:32:39,574] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:32:39,594] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:32:39,602] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:33:10,153] {processor.py:163} INFO - Started process (PID=667300) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:33:10,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:33:10,156] {logging_mixin.py:109} INFO - [2022-02-15 08:33:10,156] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:33:10,166] {logging_mixin.py:109} INFO - [2022-02-15 08:33:10,165] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:33:10,185] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:33:10,194] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.045 seconds
+[2022-02-15 08:33:40,590] {processor.py:163} INFO - Started process (PID=667355) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:33:40,592] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:33:40,593] {logging_mixin.py:109} INFO - [2022-02-15 08:33:40,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:33:40,603] {logging_mixin.py:109} INFO - [2022-02-15 08:33:40,601] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:33:40,628] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:33:40,640] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.056 seconds
+[2022-02-15 08:34:11,104] {processor.py:163} INFO - Started process (PID=667418) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:34:11,105] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:34:11,106] {logging_mixin.py:109} INFO - [2022-02-15 08:34:11,106] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:34:11,116] {logging_mixin.py:109} INFO - [2022-02-15 08:34:11,115] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:34:11,134] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:34:11,142] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:34:41,578] {processor.py:163} INFO - Started process (PID=667476) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:34:41,579] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:34:41,580] {logging_mixin.py:109} INFO - [2022-02-15 08:34:41,580] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:34:41,592] {logging_mixin.py:109} INFO - [2022-02-15 08:34:41,591] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:34:41,612] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:34:41,620] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.048 seconds
+[2022-02-15 08:35:12,149] {processor.py:163} INFO - Started process (PID=667531) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:35:12,150] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:35:12,151] {logging_mixin.py:109} INFO - [2022-02-15 08:35:12,151] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:35:12,159] {logging_mixin.py:109} INFO - [2022-02-15 08:35:12,159] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:35:12,179] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:35:12,188] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:35:42,605] {processor.py:163} INFO - Started process (PID=667595) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:35:42,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:35:42,608] {logging_mixin.py:109} INFO - [2022-02-15 08:35:42,607] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:35:42,617] {logging_mixin.py:109} INFO - [2022-02-15 08:35:42,616] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:35:42,637] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:35:42,691] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.090 seconds
+[2022-02-15 08:36:13,298] {processor.py:163} INFO - Started process (PID=667650) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:36:13,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:36:13,300] {logging_mixin.py:109} INFO - [2022-02-15 08:36:13,300] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:36:13,313] {logging_mixin.py:109} INFO - [2022-02-15 08:36:13,312] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:36:13,334] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:36:13,344] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.051 seconds
+[2022-02-15 08:36:43,624] {processor.py:163} INFO - Started process (PID=667705) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:36:43,626] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:36:43,627] {logging_mixin.py:109} INFO - [2022-02-15 08:36:43,626] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:36:43,637] {logging_mixin.py:109} INFO - [2022-02-15 08:36:43,635] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:36:43,656] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:36:43,666] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.046 seconds
+[2022-02-15 08:37:14,419] {processor.py:163} INFO - Started process (PID=667769) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:37:14,420] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:37:14,421] {logging_mixin.py:109} INFO - [2022-02-15 08:37:14,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:37:14,432] {logging_mixin.py:109} INFO - [2022-02-15 08:37:14,431] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:37:14,453] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:37:14,464] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.050 seconds
+[2022-02-15 08:37:44,883] {processor.py:163} INFO - Started process (PID=667825) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:37:44,885] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:37:44,885] {logging_mixin.py:109} INFO - [2022-02-15 08:37:44,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:37:44,895] {logging_mixin.py:109} INFO - [2022-02-15 08:37:44,894] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:37:44,915] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:37:44,924] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.045 seconds
+[2022-02-15 08:38:15,186] {processor.py:163} INFO - Started process (PID=667889) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:38:15,188] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:38:15,189] {logging_mixin.py:109} INFO - [2022-02-15 08:38:15,189] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:38:15,200] {logging_mixin.py:109} INFO - [2022-02-15 08:38:15,199] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:38:15,219] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:38:15,228] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:38:45,630] {processor.py:163} INFO - Started process (PID=667943) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:38:45,631] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:38:45,632] {logging_mixin.py:109} INFO - [2022-02-15 08:38:45,632] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:38:45,642] {logging_mixin.py:109} INFO - [2022-02-15 08:38:45,641] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:38:45,659] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:38:45,667] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.041 seconds
+[2022-02-15 08:39:16,155] {processor.py:163} INFO - Started process (PID=667999) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:39:16,157] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:39:16,158] {logging_mixin.py:109} INFO - [2022-02-15 08:39:16,158] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:39:16,170] {logging_mixin.py:109} INFO - [2022-02-15 08:39:16,169] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:39:16,189] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:39:16,198] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:39:46,561] {processor.py:163} INFO - Started process (PID=668064) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:39:46,562] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:39:46,563] {logging_mixin.py:109} INFO - [2022-02-15 08:39:46,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:39:46,572] {logging_mixin.py:109} INFO - [2022-02-15 08:39:46,571] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:39:46,590] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:39:46,598] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:40:16,774] {processor.py:163} INFO - Started process (PID=668119) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:40:16,776] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:40:16,777] {logging_mixin.py:109} INFO - [2022-02-15 08:40:16,777] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:40:16,790] {logging_mixin.py:109} INFO - [2022-02-15 08:40:16,787] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:40:16,811] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:40:16,821] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.052 seconds
+[2022-02-15 08:40:46,933] {processor.py:163} INFO - Started process (PID=668176) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:40:46,934] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:40:46,935] {logging_mixin.py:109} INFO - [2022-02-15 08:40:46,935] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:40:46,945] {logging_mixin.py:109} INFO - [2022-02-15 08:40:46,944] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:40:46,964] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:40:46,972] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:41:17,938] {processor.py:163} INFO - Started process (PID=668241) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:41:17,940] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:41:17,941] {logging_mixin.py:109} INFO - [2022-02-15 08:41:17,941] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:41:17,957] {logging_mixin.py:109} INFO - [2022-02-15 08:41:17,956] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:41:17,976] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:41:17,985] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.051 seconds
+[2022-02-15 08:41:48,482] {processor.py:163} INFO - Started process (PID=668297) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:41:48,483] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:41:48,484] {logging_mixin.py:109} INFO - [2022-02-15 08:41:48,484] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:41:48,493] {logging_mixin.py:109} INFO - [2022-02-15 08:41:48,492] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:41:48,512] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:41:48,520] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:42:18,727] {processor.py:163} INFO - Started process (PID=668351) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:42:18,728] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:42:18,729] {logging_mixin.py:109} INFO - [2022-02-15 08:42:18,729] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:42:18,738] {logging_mixin.py:109} INFO - [2022-02-15 08:42:18,737] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:42:18,756] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:42:18,763] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.041 seconds
+[2022-02-15 08:42:48,902] {processor.py:163} INFO - Started process (PID=668416) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:42:48,903] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:42:48,904] {logging_mixin.py:109} INFO - [2022-02-15 08:42:48,904] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:42:48,913] {logging_mixin.py:109} INFO - [2022-02-15 08:42:48,912] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:42:48,931] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:42:48,940] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:43:19,596] {processor.py:163} INFO - Started process (PID=668471) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:43:19,598] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:43:19,599] {logging_mixin.py:109} INFO - [2022-02-15 08:43:19,599] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:43:19,608] {logging_mixin.py:109} INFO - [2022-02-15 08:43:19,607] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:43:19,626] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:43:19,634] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:43:49,840] {processor.py:163} INFO - Started process (PID=668535) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:43:49,842] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:43:49,842] {logging_mixin.py:109} INFO - [2022-02-15 08:43:49,842] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:43:49,852] {logging_mixin.py:109} INFO - [2022-02-15 08:43:49,851] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:43:49,871] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:43:49,879] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:44:20,494] {processor.py:163} INFO - Started process (PID=668593) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:44:20,495] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:44:20,496] {logging_mixin.py:109} INFO - [2022-02-15 08:44:20,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:44:20,506] {logging_mixin.py:109} INFO - [2022-02-15 08:44:20,505] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:44:20,524] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:44:20,532] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:44:50,652] {processor.py:163} INFO - Started process (PID=668649) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:44:50,654] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:44:50,654] {logging_mixin.py:109} INFO - [2022-02-15 08:44:50,654] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:44:50,663] {logging_mixin.py:109} INFO - [2022-02-15 08:44:50,662] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:44:50,681] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:44:50,690] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.041 seconds
+[2022-02-15 08:45:21,098] {processor.py:163} INFO - Started process (PID=668716) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:45:21,099] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:45:21,100] {logging_mixin.py:109} INFO - [2022-02-15 08:45:21,100] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:45:21,110] {logging_mixin.py:109} INFO - [2022-02-15 08:45:21,109] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:45:21,139] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:45:21,158] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.065 seconds
+[2022-02-15 08:45:51,233] {processor.py:163} INFO - Started process (PID=668769) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:45:51,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:45:51,235] {logging_mixin.py:109} INFO - [2022-02-15 08:45:51,235] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:45:51,245] {logging_mixin.py:109} INFO - [2022-02-15 08:45:51,244] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:45:51,267] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:45:51,276] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:46:21,922] {processor.py:163} INFO - Started process (PID=668823) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:46:21,925] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:46:21,926] {logging_mixin.py:109} INFO - [2022-02-15 08:46:21,925] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:46:21,938] {logging_mixin.py:109} INFO - [2022-02-15 08:46:21,937] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:46:21,963] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:46:21,974] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.058 seconds
+[2022-02-15 08:46:52,154] {processor.py:163} INFO - Started process (PID=668888) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:46:52,158] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:46:52,159] {logging_mixin.py:109} INFO - [2022-02-15 08:46:52,159] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:46:52,168] {logging_mixin.py:109} INFO - [2022-02-15 08:46:52,167] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:46:52,189] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:46:52,197] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:47:22,881] {processor.py:163} INFO - Started process (PID=668943) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:47:22,882] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:47:22,883] {logging_mixin.py:109} INFO - [2022-02-15 08:47:22,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:47:22,892] {logging_mixin.py:109} INFO - [2022-02-15 08:47:22,891] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:47:22,910] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:47:22,918] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.041 seconds
+[2022-02-15 08:47:53,469] {processor.py:163} INFO - Started process (PID=669000) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:47:53,470] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:47:53,471] {logging_mixin.py:109} INFO - [2022-02-15 08:47:53,471] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:47:53,480] {logging_mixin.py:109} INFO - [2022-02-15 08:47:53,479] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:47:53,499] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:47:53,509] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:48:23,989] {processor.py:163} INFO - Started process (PID=669065) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:48:23,990] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:48:23,991] {logging_mixin.py:109} INFO - [2022-02-15 08:48:23,991] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:48:24,000] {logging_mixin.py:109} INFO - [2022-02-15 08:48:23,999] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:48:24,019] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:48:24,028] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:48:54,661] {processor.py:163} INFO - Started process (PID=669120) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:48:54,663] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:48:54,664] {logging_mixin.py:109} INFO - [2022-02-15 08:48:54,664] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:48:54,673] {logging_mixin.py:109} INFO - [2022-02-15 08:48:54,672] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:48:54,706] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:48:54,716] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.060 seconds
+[2022-02-15 08:49:25,234] {processor.py:163} INFO - Started process (PID=669176) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:49:25,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:49:25,237] {logging_mixin.py:109} INFO - [2022-02-15 08:49:25,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:49:25,253] {logging_mixin.py:109} INFO - [2022-02-15 08:49:25,250] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:49:25,279] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:49:25,296] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.066 seconds
+[2022-02-15 08:49:56,211] {processor.py:163} INFO - Started process (PID=669241) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:49:56,212] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:49:56,213] {logging_mixin.py:109} INFO - [2022-02-15 08:49:56,213] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:49:56,223] {logging_mixin.py:109} INFO - [2022-02-15 08:49:56,221] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:49:56,240] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:49:56,249] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:50:26,531] {processor.py:163} INFO - Started process (PID=669298) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:50:26,563] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:50:26,564] {logging_mixin.py:109} INFO - [2022-02-15 08:50:26,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:50:26,574] {logging_mixin.py:109} INFO - [2022-02-15 08:50:26,573] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:50:26,595] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:50:26,606] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.080 seconds
+[2022-02-15 08:50:57,462] {processor.py:163} INFO - Started process (PID=669363) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:50:57,463] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:50:57,464] {logging_mixin.py:109} INFO - [2022-02-15 08:50:57,464] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:50:57,493] {logging_mixin.py:109} INFO - [2022-02-15 08:50:57,491] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:50:57,511] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:50:57,520] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.062 seconds
+[2022-02-15 08:51:27,787] {processor.py:163} INFO - Started process (PID=669420) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:51:27,788] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:51:27,789] {logging_mixin.py:109} INFO - [2022-02-15 08:51:27,789] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:51:27,799] {logging_mixin.py:109} INFO - [2022-02-15 08:51:27,798] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:51:27,819] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:51:27,829] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:51:58,226] {processor.py:163} INFO - Started process (PID=669475) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:51:58,228] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:51:58,229] {logging_mixin.py:109} INFO - [2022-02-15 08:51:58,229] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:51:58,241] {logging_mixin.py:109} INFO - [2022-02-15 08:51:58,240] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:51:58,258] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:51:58,266] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.045 seconds
+[2022-02-15 08:52:28,824] {processor.py:163} INFO - Started process (PID=669540) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:52:28,826] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:52:28,826] {logging_mixin.py:109} INFO - [2022-02-15 08:52:28,826] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:52:28,835] {logging_mixin.py:109} INFO - [2022-02-15 08:52:28,834] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:52:28,855] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:52:28,877] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.058 seconds
+[2022-02-15 08:52:59,325] {processor.py:163} INFO - Started process (PID=669597) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:52:59,327] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:52:59,328] {logging_mixin.py:109} INFO - [2022-02-15 08:52:59,328] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:52:59,339] {logging_mixin.py:109} INFO - [2022-02-15 08:52:59,338] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:52:59,358] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:52:59,367] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:53:29,477] {processor.py:163} INFO - Started process (PID=669653) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:53:29,479] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:53:29,480] {logging_mixin.py:109} INFO - [2022-02-15 08:53:29,480] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:53:29,492] {logging_mixin.py:109} INFO - [2022-02-15 08:53:29,491] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:53:29,512] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:53:29,520] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.048 seconds
+[2022-02-15 08:53:59,752] {processor.py:163} INFO - Started process (PID=669719) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:53:59,754] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:53:59,755] {logging_mixin.py:109} INFO - [2022-02-15 08:53:59,755] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:53:59,765] {logging_mixin.py:109} INFO - [2022-02-15 08:53:59,764] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:53:59,787] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:53:59,795] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.048 seconds
+[2022-02-15 08:54:29,869] {processor.py:163} INFO - Started process (PID=669773) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:54:29,871] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:54:29,872] {logging_mixin.py:109} INFO - [2022-02-15 08:54:29,872] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:54:29,880] {logging_mixin.py:109} INFO - [2022-02-15 08:54:29,879] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:54:29,899] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:54:29,907] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:55:00,301] {processor.py:163} INFO - Started process (PID=669828) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:55:00,303] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:55:00,303] {logging_mixin.py:109} INFO - [2022-02-15 08:55:00,303] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:55:00,313] {logging_mixin.py:109} INFO - [2022-02-15 08:55:00,312] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:55:00,332] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:55:00,341] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:55:30,474] {processor.py:163} INFO - Started process (PID=669891) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:55:30,475] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:55:30,476] {logging_mixin.py:109} INFO - [2022-02-15 08:55:30,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:55:30,486] {logging_mixin.py:109} INFO - [2022-02-15 08:55:30,485] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:55:30,504] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:55:30,512] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.043 seconds
+[2022-02-15 08:56:00,679] {processor.py:163} INFO - Started process (PID=669940) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:56:00,680] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:56:00,681] {logging_mixin.py:109} INFO - [2022-02-15 08:56:00,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:56:00,690] {logging_mixin.py:109} INFO - [2022-02-15 08:56:00,689] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:56:00,709] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:56:00,719] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:56:31,188] {processor.py:163} INFO - Started process (PID=669995) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:56:31,190] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:56:31,191] {logging_mixin.py:109} INFO - [2022-02-15 08:56:31,191] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:56:31,201] {logging_mixin.py:109} INFO - [2022-02-15 08:56:31,200] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:56:31,219] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:56:31,229] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.046 seconds
+[2022-02-15 08:57:01,413] {processor.py:163} INFO - Started process (PID=670058) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:57:01,415] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:57:01,415] {logging_mixin.py:109} INFO - [2022-02-15 08:57:01,415] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:57:01,425] {logging_mixin.py:109} INFO - [2022-02-15 08:57:01,424] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:57:01,447] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:57:01,457] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.049 seconds
+[2022-02-15 08:57:31,986] {processor.py:163} INFO - Started process (PID=670113) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:57:31,988] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:57:31,989] {logging_mixin.py:109} INFO - [2022-02-15 08:57:31,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:57:31,999] {logging_mixin.py:109} INFO - [2022-02-15 08:57:31,997] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:57:32,018] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:57:32,029] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.047 seconds
+[2022-02-15 08:58:02,147] {processor.py:163} INFO - Started process (PID=670172) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:58:02,149] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:58:02,150] {logging_mixin.py:109} INFO - [2022-02-15 08:58:02,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:58:02,162] {logging_mixin.py:109} INFO - [2022-02-15 08:58:02,161] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:58:02,186] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:58:02,198] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.056 seconds
+[2022-02-15 08:58:32,418] {processor.py:163} INFO - Started process (PID=670237) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:58:32,419] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:58:32,420] {logging_mixin.py:109} INFO - [2022-02-15 08:58:32,420] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:58:32,429] {logging_mixin.py:109} INFO - [2022-02-15 08:58:32,428] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:58:32,447] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:58:32,456] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.042 seconds
+[2022-02-15 08:59:02,923] {processor.py:163} INFO - Started process (PID=670294) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:59:02,924] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:59:02,925] {logging_mixin.py:109} INFO - [2022-02-15 08:59:02,925] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:59:02,935] {logging_mixin.py:109} INFO - [2022-02-15 08:59:02,934] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:59:02,954] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:59:02,962] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.044 seconds
+[2022-02-15 08:59:33,606] {processor.py:163} INFO - Started process (PID=670360) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:59:33,613] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 08:59:33,615] {logging_mixin.py:109} INFO - [2022-02-15 08:59:33,615] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:59:33,635] {logging_mixin.py:109} INFO - [2022-02-15 08:59:33,632] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 08:59:33,655] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 08:59:33,666] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.065 seconds
+[2022-02-15 09:00:03,955] {processor.py:163} INFO - Started process (PID=670415) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 09:00:03,957] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 09:00:03,959] {logging_mixin.py:109} INFO - [2022-02-15 09:00:03,959] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 09:00:03,972] {logging_mixin.py:109} INFO - [2022-02-15 09:00:03,971] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 09:00:03,994] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 09:00:04,004] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.054 seconds
+[2022-02-15 09:00:34,364] {processor.py:163} INFO - Started process (PID=670470) to work on /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 09:00:34,367] {processor.py:642} INFO - Processing file /opt/airflow/dags/dbt_advanced.py for tasks to queue
+[2022-02-15 09:00:34,368] {logging_mixin.py:109} INFO - [2022-02-15 09:00:34,367] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 09:00:34,380] {logging_mixin.py:109} INFO - [2022-02-15 09:00:34,378] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/dbt_advanced.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dbt_advanced.py", line 64, in <module>
+    data = load_manifest()
+  File "/opt/airflow/dags/dbt_advanced.py", line 25, in load_manifest
+    with open(local_filepath) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/airflow/dbt/target/manifest.json'
+[2022-02-15 09:00:34,401] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dbt_advanced.py
+[2022-02-15 09:00:34,412] {processor.py:171} INFO - Processing /opt/airflow/dags/dbt_advanced.py took 0.053 seconds
