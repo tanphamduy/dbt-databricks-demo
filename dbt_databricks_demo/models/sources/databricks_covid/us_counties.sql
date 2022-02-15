@@ -15,7 +15,7 @@ WITH source AS (
 
   SELECT 
     date AS date,
-    county AS county
+    county AS county,
     state AS state,
     fips AS fips_county_code,
     cases AS cases,

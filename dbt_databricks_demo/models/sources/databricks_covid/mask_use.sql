@@ -15,7 +15,7 @@ WITH source AS (
 
   SELECT 
     countyfp AS fips_county_code,
-    never AS never
+    never AS never,
     rarely AS rarely,
     sometimes AS sometimes,
     frequently AS frequently,
