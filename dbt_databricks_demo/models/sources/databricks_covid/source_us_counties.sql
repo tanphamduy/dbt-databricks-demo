@@ -9,17 +9,17 @@
 WITH source AS (
 
   SELECT *
-  FROM {{ source('raw', 'databricks_covid_mask_use') }}
+  FROM {{ source('raw', 'databricks_covid_us_counties') }}
 
 ), renamed AS (
 
   SELECT 
-    countyfp AS fips_county_code,
-    never AS never
-    rarely AS rarely,
-    sometimes AS sometimes,
-    frequently AS frequently,
-    always AS always
+    date AS date,
+    county AS county,
+    state AS state,
+    fips AS fips_county_code,
+    cases AS cases,
+    deaths AS deaths
 
 
   FROM source
