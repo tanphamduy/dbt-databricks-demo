@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: RAW
+    schema: EXTERNAL
+    tables:
+      - name: external_nytimes_covid_us
+      - name: external_nytimes_covid_us_states
+      - name: external_nytimes_covid_us_counties
+      - name: external_nytimes_covid_mask_use

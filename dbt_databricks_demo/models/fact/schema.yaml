@@ -1,0 +1,41 @@
+version: 2
+
+models:
+    - name: fct_us_mask_use_and_covid
+      description: 'Mask usage information and COVID-19 cases / deaths per county in the US'
+      columns:
+      - name: date
+        tests:
+        - not_null    
+      - name: county
+        tests:
+        - not_null   
+      - name: cases
+        tests:
+        - not_null   
+      - name: deaths
+        tests:
+        - not_null   
+      - name: state
+        tests:
+        - not_null      
+      - name: never
+        description: Mask usage - 'Never' ratio
+        tests:
+        - not_null     
+      - name: rarely
+        description: Mask usage - 'Rarely' ratio
+        tests:
+        - not_null     
+      - name: sometimes
+        description: Mask usage - 'Sometimes' ratio
+        tests:
+        - not_null     
+      - name: frequently
+        description: Mask usage - 'Frequently' ratio
+        tests:
+        - not_null     
+      - name: always
+        description: Mask usage - 'Always' ratio
+        tests:
+        - not_null     

@@ -1,0 +1,85 @@
+version: 2
+
+models:
+    - name: staging_us
+      description: 'Number of COVID-19 cases and deaths per day in the US'
+      columns:
+      - name: date
+        tests:
+        - not_null
+        - unique
+      - name: cases
+        tests:
+        - not_null
+      - name: deaths
+        tests:
+        - not_null
+    - name: staging_us_states
+      description: 'Number of COVID-19 cases and deaths per state and per day in the US'
+      columns:
+      - name: date
+        tests:
+        - not_null
+        - unique
+      - name: state
+        tests:
+        - not_null
+      - name: fips_state_code
+        description: 'US state code according to Federal Information Processing Standards (FIPS)'
+        tests:
+        - not_null
+      - name: cases
+        tests:
+        - not_null
+      - name: deaths
+        tests:
+        - not_null
+    - name: staging_us_counties
+      description: 'Number of COVID-19 cases and deaths per county and per day in the US'
+      columns:
+      - name: date
+        tests:
+        - not_null
+        - unique
+      - name: county
+        tests:
+        - not_null
+      - name: state
+        tests:
+        - not_null
+      - name: fips_county_code
+        description: 'US county code according to Federal Information Processing Standards (FIPS)'
+        tests:
+        - not_null
+      - name: cases
+        tests:
+        - not_null
+      - name: deaths
+        tests:
+        - not_null
+    - name: staging_mask_use
+      description: 'Mask usage information per county in the US'
+      columns:
+      - name: fips_county_code
+        tests:
+        - not_null     
+      - name: never
+        description: Mask usage - 'Never' ratio
+        tests:
+        - not_null     
+      - name: rarely
+        description: Mask usage - 'Rarely' ratio
+        tests:
+        - not_null     
+      - name: sometimes
+        description: Mask usage - 'Sometimes' ratio
+        tests:
+        - not_null     
+      - name: frequently
+        description: Mask usage - 'Frequently' ratio
+        tests:
+        - not_null     
+      - name: always
+        description: Mask usage - 'Always' ratio
+        tests:
+        - not_null     

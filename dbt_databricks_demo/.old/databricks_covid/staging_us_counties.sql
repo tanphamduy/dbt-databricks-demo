@@ -1,4 +1,3 @@
-
 /*
     Data from Databricks COVID-19 Dataset 
     "/databricks-datasets/COVID/covid-19-data/us_states.csv"

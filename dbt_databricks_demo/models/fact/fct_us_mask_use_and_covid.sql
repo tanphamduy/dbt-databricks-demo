@@ -34,5 +34,4 @@ with us_counties
     )
 
 select * 
-  from fct_us_mask_use_and_covid;
-     
+  from fct_us_mask_use_and_covid
